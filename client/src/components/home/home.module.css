@@ -1,0 +1,14 @@
+ /* ****** Hoja de estilo de Home ******* */
+
+ .container {
+   background: var(--one-color);
+   min-height: 100vh;
+   box-sizing: border-box;
+   
+   
+ }
+
+ .container_cards {
+  width: auto;
+  margin-left: 340px;
+ }

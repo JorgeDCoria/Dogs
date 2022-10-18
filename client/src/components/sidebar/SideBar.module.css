@@ -1,0 +1,8 @@
+/* ******* Estilos de SideBar ****** */
+.container{
+    width: 320px;
+    min-height: 100vh;
+    border-right: 2px solid var(--five-color);
+    padding: 4px;
+    position: fixed;
+}

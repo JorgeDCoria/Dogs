@@ -1,0 +1,64 @@
+:root {
+  --main-bg-color: black ;
+  --main-font-color: white;
+  --one-color: #172601;
+  --two-color: #2C4001;
+  --three-color:#88A61C ;
+  --four-color: #5F7316;
+  --five-color: #D5D977;
+
+}
+.container {
+  background: url('../../assets/image/portada2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.title{
+  color: var(--main-font-color);
+  font-size: 8rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 5px var(--one-color),-3px -3px 5px var(--one-color) ;
+ 
+}
+
+.paragraph{
+  padding: 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--main-font-color);
+  text-align: justify;
+  text-shadow: 3px 3px 5px var(--one-color),-3px -3px 5px var(--one-color) ;
+}
+
+.subtitle{
+  color: var(--main-font-color);
+  text-shadow: 3px 3px 5px var(--one-color),-3px -3px 5px var(--one-color) ;
+}
+.btn {
+  padding: 20px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  background: var(--one-color);
+  border-radius: 10px;
+  color: var(--five-color);
+  border: 2px solid var(--five-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--five-color);
+  color: var(--one-color);
+  border: 2px solid var(--one-color);
+  transform: scaleX(1);
+  transition: 1.5s;
+}
+
